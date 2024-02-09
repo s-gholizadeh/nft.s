@@ -1,0 +1,151 @@
+@media screen and (max-width:1200px) {
+    .input_header_placeholder{
+        font-size: 18px !important;
+    }
+    
+}
+
+@media screen and (max-width:991.98px) {
+    .bg_dark_md{
+        background-color: var(--bs-secondary-color);
+    }
+    header::before{
+        width: 30%;
+        height: 46%;
+        right: 70%;
+        top: 0;
+        opacity: 0.4;
+        filter: blur(50px);
+        -webkit-filter: blur(50px);
+    }
+    header::after{
+        display: none;
+    }
+    .ellipse_2{
+        width: 551px;
+        height: 574px;
+        bottom: 64%;
+        left: 65%;
+    }
+
+}
+@media screen and (max-width:600.98px) {
+    .title_main_header{
+        font-size: 2rem;
+    }
+    .text_time_hot_bids{
+        width: 120px;
+        height: 34px;
+        font-size: 0.8rem;
+    }
+    .heart_icon_hot_bids{
+        width: 31px;
+        height: 31px;
+    }
+    .main_img_header::before,.main_img_header::after{
+        transform: scale(0.7);
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        -o-transform: scale(0.7);
+    }
+    .count_user_site {
+        width: 238px;
+        height: 57px;
+    }
+    .icon_header_container{
+        width: 40px;
+        height: 40px;
+    }
+    .icon_header_container img{
+        width: 24px;
+    }
+    .fs-3 {
+        font-size: calc(1rem + .6vw)!important;
+    }
+    .fs-4 {
+        font-size: calc(1rem + .3vw)!important;
+    }
+    .fs-5 {
+        font-size: 1rem!important;
+    }
+    .arrowleft{
+        width: 22px;
+    }
+    .box_property{
+        height: 198px;
+    }
+    .box_icon_property{
+        width: 58px;
+        height: 58px;
+        top: -2rem;
+    }
+    .box_icon_property img{
+        width: 22px;
+    }
+    .section_Attributes{
+        margin-top: 6rem;
+    }
+    .form_news_letter{
+        width: 95%;
+    }
+    .cover_bg_news_letter{
+        box-shadow: none;
+        background: transparent;
+    }
+    .section_news_letter{
+        border-radius: 10px !important;
+        background: linear-gradient(180deg,#a50e86 0.16%,#c10b70 24.02%,#eb3947 38.73%,#df330d 55.88%,#c55212 81.05%,#d37506 100%);
+        -webkit-border-radius: 10px !important;
+        -moz-border-radius: 10px !important;
+        -ms-border-radius: 10px !important;
+        -o-border-radius: 10px !important;
+    }
+    .section_news_letter::before, .section_news_letter::after{
+        width: 280px;
+        height: 380px;
+    }
+    .section_news_letter::before{
+        left: -5rem;
+        bottom: -8rem;
+        transform: rotate(-104deg);
+        -webkit-transform: rotate(-104deg);
+        -moz-transform: rotate(-104deg);
+        -ms-transform: rotate(-104deg);
+        -o-transform: rotate(-104deg);
+    }
+    .section_news_letter::after{
+        right: -1.7rem;
+        bottom: 0rem;
+        transform: rotate(259deg);
+        -webkit-transform: rotate(259deg);
+        -moz-transform: rotate(259deg);
+        -ms-transform: rotate(259deg);
+        -o-transform: rotate(259deg);
+}
+}
+@media screen and (max-width:700px) {
+    .text_time_hot_bids{
+        width: 150px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    .heart_icon_hot_bids{
+        width: 40px;
+        height: 40px;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .count_user_site{
+        bottom: 2rem;
+        right: 2rem;
+    }
+    .main_img_header::before{
+        top: 2rem;
+        right: 4rem;
+    }
+    .input_font_sz::placeholder{
+        font-size: 1rem;
+    }
+}
